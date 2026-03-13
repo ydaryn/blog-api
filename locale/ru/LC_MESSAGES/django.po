@@ -1,0 +1,72 @@
+# Russian translations
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+
+msgid "Email is required"
+msgstr "Email обязателен"
+
+msgid "Title cannot be empty."
+msgstr "Заголовок не может быть пустым."
+
+msgid "Post body cannot be empty."
+msgstr "Текст поста не может быть пустым."
+
+msgid "Comment body cannot be empty."
+msgstr "Текст комментария не может быть пустым."
+
+msgid "Unsupported language. Choose from: en, ru, kk."
+msgstr "Неподдерживаемый язык. Выберите из: en, ru, kk."
+
+msgid "Invalid IANA timezone identifier: %(tz)s"
+msgstr "Неверный часовой пояс IANA: %(tz)s"
+
+msgid "Language updated to %(lang)s"
+msgstr "Язык обновлён на %(lang)s"
+
+msgid "Timezone updated to %(tz)s"
+msgstr "Часовой пояс обновлён на %(tz)s"
+
+msgid "Welcome to the Blog, %(name)s!"
+msgstr "Добро пожаловать в блог, %(name)s!"
+
+msgid "Hi %(name)s,\n\nWelcome to the Blog! Your account has been created successfully.\n\nYou can now log in and start reading and writing posts.\n\nEnjoy your stay!\n\n— The Blog Team\n"
+msgstr "Привет, %(name)s!\n\nДобро пожаловать в блог! Ваш аккаунт успешно создан.\n\nТеперь вы можете войти и начать читать и писать посты.\n\nПриятного пользования!\n\n— Команда блога\n"
+
+msgid "user"
+msgstr "пользователь"
+
+msgid "users"
+msgstr "пользователи"
+
+msgid "post"
+msgstr "пост"
+
+msgid "posts"
+msgstr "посты"
+
+msgid "comment"
+msgstr "комментарий"
+
+msgid "comments"
+msgstr "комментарии"
+
+msgid "category"
+msgstr "категория"
+
+msgid "categories"
+msgstr "категории"
+
+msgid "tag"
+msgstr "тег"
+
+msgid "tags"
+msgstr "теги"
+
+msgid "Draft"
+msgstr "Черновик"
+
+msgid "Published"
+msgstr "Опубликован"

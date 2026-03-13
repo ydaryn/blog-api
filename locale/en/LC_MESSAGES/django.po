@@ -1,0 +1,36 @@
+# English translations (base)
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+
+msgid "Email is required"
+msgstr "Email is required"
+
+msgid "Title cannot be empty."
+msgstr "Title cannot be empty."
+
+msgid "Post body cannot be empty."
+msgstr "Post body cannot be empty."
+
+msgid "Comment body cannot be empty."
+msgstr "Comment body cannot be empty."
+
+msgid "Unsupported language. Choose from: en, ru, kk."
+msgstr "Unsupported language. Choose from: en, ru, kk."
+
+msgid "Invalid IANA timezone identifier: %(tz)s"
+msgstr "Invalid IANA timezone identifier: %(tz)s"
+
+msgid "Language updated to %(lang)s"
+msgstr "Language updated to %(lang)s"
+
+msgid "Timezone updated to %(tz)s"
+msgstr "Timezone updated to %(tz)s"
+
+msgid "Welcome to the Blog, %(name)s!"
+msgstr "Welcome to the Blog, %(name)s!"
+
+msgid "Hi %(name)s,\n\nWelcome to the Blog! Your account has been created successfully.\n\nYou can now log in and start reading and writing posts.\n\nEnjoy your stay!\n\n— The Blog Team\n"
+msgstr "Hi %(name)s,\n\nWelcome to the Blog! Your account has been created successfully.\n\nYou can now log in and start reading and writing posts.\n\nEnjoy your stay!\n\n— The Blog Team\n"

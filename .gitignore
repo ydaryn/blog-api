@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Django
+*.log
+db.sqlite3
+staticfiles/
+media/
+
+# Compiled translations (.mo files are generated, .po files are committed)
+*.mo
+
+# Environment — the actual .env is never committed
+settings/.env
+
+# IDE
+.vscode/
+.idea/
+*.swp

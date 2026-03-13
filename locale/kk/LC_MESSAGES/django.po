@@ -1,0 +1,72 @@
+# Kazakh translations
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: kk\n"
+
+msgid "Email is required"
+msgstr "Email міндетті"
+
+msgid "Title cannot be empty."
+msgstr "Тақырып бос болмауы керек."
+
+msgid "Post body cannot be empty."
+msgstr "Пост мәтіні бос болмауы керек."
+
+msgid "Comment body cannot be empty."
+msgstr "Пікір мәтіні бос болмауы керек."
+
+msgid "Unsupported language. Choose from: en, ru, kk."
+msgstr "Қолданылмайтын тіл. Таңдаңыз: en, ru, kk."
+
+msgid "Invalid IANA timezone identifier: %(tz)s"
+msgstr "Жарамсыз IANA уақыт белдеуі: %(tz)s"
+
+msgid "Language updated to %(lang)s"
+msgstr "Тіл %(lang)s-ге жаңартылды"
+
+msgid "Timezone updated to %(tz)s"
+msgstr "Уақыт белдеуі %(tz)s-ге жаңартылды"
+
+msgid "Welcome to the Blog, %(name)s!"
+msgstr "Блогқа қош келдіңіз, %(name)s!"
+
+msgid "Hi %(name)s,\n\nWelcome to the Blog! Your account has been created successfully.\n\nYou can now log in and start reading and writing posts.\n\nEnjoy your stay!\n\n— The Blog Team\n"
+msgstr "Сәлем, %(name)s!\n\nБлогқа қош келдіңіз! Тіркелгіңіз сәтті жасалды.\n\nЕнді кіріп, жазбалар оқып және жаза аласыз.\n\nПайдалану ыңғайлы болсын!\n\n— Блог командасы\n"
+
+msgid "user"
+msgstr "пайдаланушы"
+
+msgid "users"
+msgstr "пайдаланушылар"
+
+msgid "post"
+msgstr "жазба"
+
+msgid "posts"
+msgstr "жазбалар"
+
+msgid "comment"
+msgstr "пікір"
+
+msgid "comments"
+msgstr "пікірлер"
+
+msgid "category"
+msgstr "санат"
+
+msgid "categories"
+msgstr "санаттар"
+
+msgid "tag"
+msgstr "тег"
+
+msgid "tags"
+msgstr "тегтер"
+
+msgid "Draft"
+msgstr "Жоба"
+
+msgid "Published"
+msgstr "Жарияланды"

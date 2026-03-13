@@ -1,0 +1,14 @@
+Django==5.0
+djangorestframework
+djangorestframework-simplejwt
+python-decouple
+Pillow
+redis[hiredis]
+django-redis
+django-ratelimit
+drf-nested-routers
+drf-spectacular
+httpx
+pytz
+Babel
+
