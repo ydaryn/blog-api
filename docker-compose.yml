@@ -1,0 +1,52 @@
+x-common-service: &common-service
+  build: .
+  env_file: backend/settings/.env
+  restart: unless-stopped
+  depends_on:
+    redis:
+      condition: service_healthy
+
+services:
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    restart: unless-stopped
+    healthcheck:
+      test: [ "CMD", "redis-cli", "ping" ]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+
+  web:
+    <<: *common-service
+    ports:
+      - "8000:8000"
+    volumes:
+      - sqlite_data:/app/backend/db.sqlite3
+    command: daphne -b 0.0.0.0 -p 8000 settings.asgi:application
+    healthcheck:
+      test: [ "CMD-SHELL", "curl -f http://localhost:8000/health/ || exit 1" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  celery_worker:
+    <<: *common-service
+    command: celery -A settings worker -l info
+
+  celery_beat:
+    <<: *common-service
+    volumes:
+      - celery_beat_schedule:/app/celerybeat-schedule
+    command: celery -A settings beat -l info --schedule=/app/celerybeat-schedule/celerybeat-schedule
+
+  flower:
+    <<: *common-service
+    ports:
+      - "5555:5555"
+    command: celery -A settings flower --basic-auth=${BLOG_FLOWER_USER}:${BLOG_FLOWER_PASSWORD}
+
+volumes:
+  sqlite_data:
+  celery_beat_schedule:

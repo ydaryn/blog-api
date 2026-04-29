@@ -1,0 +1,47 @@
+# English translations
+# Copyright (C) 2025 Blog API
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2025-01-01 00:00+0000\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Success messages
+msgid "Language updated successfully."
+msgstr "Language updated successfully."
+
+msgid "Timezone updated successfully."
+msgstr "Timezone updated successfully."
+
+# Validation errors
+msgid "Invalid language. Choose from: en, ru, kk"
+msgstr "Invalid language. Choose from: en, ru, kk"
+
+msgid "Invalid timezone. Use a valid IANA identifier e.g. Asia/Almaty"
+msgstr "Invalid timezone. Use a valid IANA identifier e.g. Asia/Almaty"
+
+msgid "Timezone is required."
+msgstr "Timezone is required."
+
+msgid "Authentication required."
+msgstr "Authentication required."
+
+# Resource errors
+msgid "Post not found."
+msgstr "Post not found."
+
+msgid "Comment not found."
+msgstr "Comment not found."
+
+# Model fields
+msgid "Preferred language"
+msgstr "Preferred language"
+
+msgid "Timezone"
+msgstr "Timezone"
+
+msgid "User"
+msgstr "User"

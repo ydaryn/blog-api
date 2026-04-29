@@ -1,0 +1,47 @@
+# Kazakh translations
+# Copyright (C) 2025 Blog API
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2025-01-01 00:00+0000\n"
+"Language: kk\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+# Success messages
+msgid "Language updated successfully."
+msgstr "Тіл сәтті жаңартылды."
+
+msgid "Timezone updated successfully."
+msgstr "Уақыт белдеуі сәтті жаңартылды."
+
+# Validation errors
+msgid "Invalid language. Choose from: en, ru, kk"
+msgstr "Қате тіл. Таңдаңыз: en, ru, kk"
+
+msgid "Invalid timezone. Use a valid IANA identifier e.g. Asia/Almaty"
+msgstr "Қате уақыт белдеуі. IANA идентификаторын пайдаланыңыз, мысалы: Asia/Almaty"
+
+msgid "Timezone is required."
+msgstr "Уақыт белдеуі міндетті."
+
+msgid "Authentication required."
+msgstr "Аутентификация қажет."
+
+# Resource errors
+msgid "Post not found."
+msgstr "Пост табылмады."
+
+msgid "Comment not found."
+msgstr "Пікір табылмады."
+
+# Model fields
+msgid "Preferred language"
+msgstr "Қалаулы тіл"
+
+msgid "Timezone"
+msgstr "Уақыт белдеуі"
+
+msgid "User"
+msgstr "Пайдаланушы"
